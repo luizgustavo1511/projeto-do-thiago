@@ -1,0 +1,626 @@
+console.log ("seja bem vindo a loja Xgamer ");
+console.log ("aqui está nossos produtos:");
+console.log ("pc gamer");
+console.log ("______");
+console.log ("ps5");
+console.log ("______");
+console.log ("monitor");
+console.log ("______");
+console.log("gabinete");
+console.log ("______");
+console.log ("mouse");
+console.log ("______");
+console.log ("teclado");
+console.log ("______");
+console.log ("controle de ps5");
+console.log ("______");
+console.log ("memória RAM");
+console.log ("______");
+console.log ("SSD");
+console.log ("______");
+console.log ("HD");
+console.log ("______");
+console.log ("placa de video ultima geração");
+console.log ("______");
+console.log ("processador intel ultima geração");
+console.log ("______");
+console.log ("placa mãe intel");
+console.log ("__________________");
+console.log ("aqui nós trabalhamos com os melhores produtos de ultima geração.");
+console.log ("__________________");
+var xgamer= prompt ("o que gostaria?");
+
+
+switch (xgamer){
+	
+	case  "pc gamer" : 
+	console.log ("esta no valor de ...R$8.000,00");
+	console.log("cód de barra:");
+	const numero = [5684217479];
+	let index = 0;
+	while (index < numero.length){
+		console.log (numero[index]);
+		index++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		 if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insiraos dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5684217479":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12346
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug==123456);
+		
+		break;
+	case "ps5":
+	console.log ("esta no valor de ...R$ 5.000,00");
+	console.log("cód de barra:");
+		const numeo = [5611218488];
+	let inde = 0;
+	while (inde < numeo.length){
+		console.log (numeo[inde]);
+		inde++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5611218488":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+		
+	break;
+	case "monitor":
+  console.log ("esta no valor de ...R$1.700,00"); 
+	console.log("cód de barra:"); 
+		const numo = [5981116481];
+	let ind = 0;
+	while (ind < numo.length){
+		console.log (numo[ind]);
+		ind++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+		var insira= prompt ("");
+		switch (insira){
+		case "5981116481":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	
+  break;
+	
+	case "gabinete":
+	console.log("esta no valor de ...R$ 600,00");
+	console.log("cód de barra:");
+		const numeros = [7981219489];
+	let produtos = 0;
+	while (produtos < numeros.length){
+		console.log (numeros[produtos]);
+		produtos++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "7981219489":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+		
+	break;
+  case "mouse":
+	console.log ("esta no valor de...R$ 200,00");
+	console.log("cód de barra:");
+		const n = [5681316585];
+	let produto = 0;
+	while (produto < n.length){
+		console.log (n[produto]);
+		produto++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5681316585":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	case "teclado":
+	console.log ("esta no valor de...R$ 300,00");
+	console.log("cód de barra:");
+		const a = [5671216449];
+	let produt = 0;
+	while (produt < a.length){
+		console.log (a[produt]);
+		produt++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5671216449":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	case "controle de ps5":
+	console.log ("esta no valor de...R$ 500,00");
+	console.log("cód de barra:");
+		const b = [1691213479];
+	let produ = 0;
+	while (produ < b.length){
+		console.log (b[produ]);
+		produ++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira a senha");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "1691213479":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	
+  case "memória RAM" :
+	console.log ("esta no valor de...R$ 700,00");
+	console.log("cód de barra:");
+		const c = [5683336489];
+	let prod = 0;
+	while (prod < c.length){
+		console.log (c[prod]);
+		prod++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5683336489":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+  case "SSD":
+	console.log ("esta no valor de...R$500,00");
+	console.log("cód de barra:");
+		const d = [6682216489];
+	let pro = 0;
+	while (pro < d.length){
+		console.log (d[pro]);
+	pro++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "6682216489":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	case "HD":
+	console.log ("esta no valor de...R$300,00");
+	console.log("cód de barra:");
+		const e = [5881216699];
+	let indexx = 0;
+	while (indexx < e.length){
+		console.log (e[indexx]);
+		indexx++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5881216699":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	case "placa de video ultima geração":
+	console.log ("esta no valor de...R$3.000,00");
+	console.log("cód de barra:");
+		const f = [5651516589];
+	let indet = 0;
+	while (indet < f.length){
+		console.log (f[indet]);
+		indet++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5651516589":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+		
+	break;
+	case "processador intel ultima geração":
+	console.log ("esta no valor de...R$3.000,00");
+	console.log("cód de barra:");
+		const g = [1611116489];
+	let indeo = 0;
+	while (indeo < g.length){
+		console.log (g[indeo]);
+		indeo++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "1611116489":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+	break;
+	case "placa mãe intel":
+	console.log ("esta no valor de...R$700,00");
+	console.log("cód de barra:");
+		const h = [5431215489];
+	let indep = 0;
+	while (indep < h.length){
+		console.log (h[indep]);
+		indep++;
+	}
+		var pagamento= prompt ("qual é a forma de pagamento?");
+		if (pagamento== 'débito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+} else if (pagamento== 'crédito'){
+	console.log ("por favor insira os dados");
+	var Nº= prompt ("nº cartao");
+	var cvv= prompt ("cvv");
+	for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+}else if (pagamento== 'boleto'){		
+	console.log ("por favor insira o código de barra");
+	var insira= prompt ("");
+	switch (insira){
+		case "5431215489":
+		console.log ("cód correto");
+		break;
+		default:
+		console.log ("cód incorreto");
+		break;
+		for (var ex=1; ex <=3; ex++)
+	{console.log ("carregando...",ex);}
+	}
+
+	}
+	else{
+		console.log("forma de pagamento nao compreendida");
+
+	} 
+		var bug= 12356
+	do{
+		console.log ("obrigado pela compra, volte sempre");
+	}while (bug===123456);
+  break; 
+  default:
+console.log("nao temos, sinto muito.");
+break;
+}
